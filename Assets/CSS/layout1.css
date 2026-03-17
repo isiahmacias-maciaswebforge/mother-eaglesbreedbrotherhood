@@ -1,0 +1,115 @@
+/* Layout1 */
+
+
+/* Gloabal Styles */
+/* Font Styles */
+:root {
+   --font-main: 'Inter', sans-serif;
+   --font-header: 'Roboto Slab', serif;
+}
+
+/* Page Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Entire Visual Page Styles */
+/* Full Height of the Screen */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-main);
+    line-height: 1.6;
+    min-height: 100vh;	
+}
+
+
+/* Header Styles */
+/* Actual Header Section */
+header {
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Header Title */
+header h1 {
+    
+}
+
+
+/* Main Part of Content Styles */
+/* Space Between the Header and Footer */
+main {
+    flex: 1;
+    padding: 2rem; 
+    margin: 0 3rem; 
+    text-align: center;
+
+}
+
+
+/* Footer Styles */
+/* Actual Footer Section */
+footer {
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Main Content of the Footer */
+.footer-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling the links inside the footer */
+footer a {
+  color: #add8e6; 
+  text-decoration: underline;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+/* Styling the links inside the footer once hovered over.*/
+footer a:hover {
+  color: #ffffff;
+}
+
+/* Our Shoutout at the Bottom */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+/* The Footer Title line */
+footer .brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* The Footer copywrite line */
+footer .copy {
+  margin: 5px 0 0;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+
+/* Other Global Styles */
+/* Tagline */
+.tagline {
+    font-style: italic;
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 1rem;
+}
