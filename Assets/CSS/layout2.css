@@ -102,6 +102,15 @@ nav ul li a:hover {
 
 
 /* Other Global Styles */
+/* Chapter Line */
+.subBrand {
+    font-size: 1rem;
+    color: #bbb;          
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+    margin: 3px 0;
+}
+
 /* Our tagline */
 .tagline {
     font-style: italic;
