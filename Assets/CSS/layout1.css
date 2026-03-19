@@ -4,8 +4,8 @@
 /* Gloabal Styles */
 /* Font Styles */
 :root {
-   --font-main: 'Inter', sans-serif;
-   --font-header: 'Roboto Slab', serif;
+    --font-main: 'Inter', sans-serif;
+    --font-header: 'Roboto Slab', serif; 
 }
 
 /* Page Style Reset */
@@ -23,22 +23,24 @@ body {
     flex-direction: column;
     font-family: var(--font-main);
     line-height: 1.6;
-    min-height: 100vh;	
+    min-height: 100vh;
+    background: url('../Images/americanFlag.jpg') center/cover no-repeat fixed;
 }
 
 
 /* Header Styles */
 /* Actual Header Section */
 header {
-    color: white;
-    background-color: black;
-    padding: 1.5rem;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
     text-align: center;
 }
 
 /* Header Title */
 header h1 {
-    
+    margin: 0;
+    font-size: 2rem;
 }
 
 
@@ -49,24 +51,31 @@ main {
     padding: 2rem; 
     margin: 0 3rem; 
     text-align: center;
-
 }
 
 
 /* Footer Styles */
 /* Actual Footer Section */
 footer {
-    color: white;
-    background-color: black;
-    padding: 1.5rem;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(5px);
     text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: auto;
 }
 
 /* Main Content of the Footer */
 .footer-content {
     display: flex;
-    max-width: 1200px;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 700px;
     margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
 }
 
 /* Styling the links inside the footer */
@@ -80,6 +89,7 @@ footer a {
 /* Styling the links inside the footer once hovered over.*/
 footer a:hover {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 /* Our Shoutout at the Bottom */
@@ -90,7 +100,17 @@ footer a:hover {
     padding-top: 15px;
 }
 
-/* The Footer Title line */
+/* Left part of the footer content */
+.footer-left {
+    text-align: left;
+}
+
+/* right part of the footer content */
+.footer-right {
+    text-align: right;
+}
+
+/* The Footer brand line */
 footer .brand {
   font-weight: bold;
   font-size: 1.5rem;
@@ -101,15 +121,6 @@ footer .brand {
 footer .copy {
   margin: 5px 0 0;
   font-size: 0.8rem;
-  color: #777;
+  color: #d2d0d0;
 }
 
-
-/* Other Global Styles */
-/* Tagline */
-.tagline {
-    font-style: italic;
-    margin: 5px 0;
-    color: #ffffff;
-    font-size: 1rem;
-}
