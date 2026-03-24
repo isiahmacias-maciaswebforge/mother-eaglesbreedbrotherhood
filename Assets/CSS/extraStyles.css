@@ -1,26 +1,6 @@
 /* Extra Styles */
 
 
-/* Index styles */
-/* The explore and return to main site buttons */
-.indexBtns {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-/* Hover affect on The explore and return to main site buttons */
-.indexBtns:hover {
-    background-color: #0056b3;
-}
-
-
 /* Home Styles */
 /* Photo Gallery */
 .galleryGrid {
@@ -46,3 +26,24 @@
     transform: scale(1.05);
     filter: brightness(80%);
 }
+
+
+/* Other Global Styles */
+/* The Blue <a> Buttons */
+.blueBtns {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Hover affect on The Blue <a> Buttons */
+.blueBtns:hover {
+    background-color: #0056b3;
+}
+
