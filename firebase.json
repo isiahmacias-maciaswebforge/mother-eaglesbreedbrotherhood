@@ -7,7 +7,7 @@
             "**/node_modules/**"
         ],
         "rewrites": [
-            { "source": "/qr", "destination": "/qr.html" }
+            { "source": "/qr", "destination": "/qr.html" },
             { "source": "/home", "destination": "/home.html" }
         ],
         "headers": [
