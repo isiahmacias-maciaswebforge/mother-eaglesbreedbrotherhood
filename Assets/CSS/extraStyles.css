@@ -47,3 +47,15 @@
     background-color: #0056b3;
 }
 
+/* Styling the links inside The Blue <a> Buttons */
+.centerTextBox a.blueBtns {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Hover affect on the links inside The Blue <a> Buttons */
+.centerTextBox a.blueBtn:hover {
+  color: white;
+}
+
