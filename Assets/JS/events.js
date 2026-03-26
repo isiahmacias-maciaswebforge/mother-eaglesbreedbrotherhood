@@ -19,7 +19,9 @@ const packageData = {
       </p>
     `
   }
-
+  
+};
+  
 const modalOverlay = document.createElement("div");
 modalOverlay.className = "modalOverlay";
 
