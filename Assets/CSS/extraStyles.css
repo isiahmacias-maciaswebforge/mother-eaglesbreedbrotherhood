@@ -63,13 +63,29 @@
 /* Events Styles */
 /* The Container for each event tile */
 .eventBox {
-    text-align: left;
+    display: flex;
+    justify-content: space-between; 
     padding: 10px 15px;
     margin: 10px 0;
-    color: white;
     background-color: #111;
     border-left: 4px solid #1e3a8a;
     border-radius: 6px;
 }
 
+/* The event details side of the event box */
+.eventDetails {
+    color: white;
+    text-align: left;
+}
 
+/* The flyer for each event */
+.eventFlyer img {
+    max-width: 170px;
+    border-radius: 12px;
+    transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+/* Hover affect for flyers */
+.eventFlyer img:hover {
+    transform: scale(1.8);
+}
