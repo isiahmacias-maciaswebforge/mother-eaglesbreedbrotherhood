@@ -121,10 +121,10 @@
 }
 
 /* Prices textbox */
-.supportShirtDisplay .textBox {
+.supportShirtDisplay .centerTextBox {
     flex: 1;
     padding: 5px;
-    width: 100%;
+    width: 100%; 
     height: 260px;
     object-fit: cover;
     border-radius: 10px;
