@@ -130,3 +130,17 @@
     border-radius: 10px;
     font-size: 2.5rem;
 }
+
+
+/* Contact Styles */
+/* Centers contact info */
+.contactSection {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling textBox inside contactSection */
+.contactSection .textBox {
+    width: 500px;
+}
+
