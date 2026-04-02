@@ -112,6 +112,13 @@ header h1 {
     font-size: 0.95rem;
 }
 
+/* Prevent long text (like emails) from overflowing */
+.textBox,
+.centerTextBox {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 
 /* Logos*/
 /* Resize logos */
