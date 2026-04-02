@@ -54,11 +54,6 @@
   font-style: normal;
 }
 
-/* Hover affect on the links inside The Blue <a> Buttons */
-.centerTextBox a.blueBtn:hover {
-  color: white;
-}
-
 
 /* Events Styles */
 /* The Container for each event tile */
