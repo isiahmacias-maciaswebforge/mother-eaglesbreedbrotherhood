@@ -1,0 +1,160 @@
+/* Mobile Overrides */
+/* Loaded after all desktop CSS */
+
+
+/* Layout1 */
+
+
+/* Stack multi-column sections vertically */
+.contactSection,
+.supportShirtDisplay {
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* Add spacing from navigation/content above */
+.contactSection {
+    margin-top: 30px;
+}
+
+
+/* Footer layout adjustment */
+.footer-content {
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Adjust main spacing for mobile */
+main {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+
+
+
+/* Layout2 */
+
+
+/* Navigation wraps instead of overflowing */
+nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+
+/* Contact textBoxes fit smaller screens */
+.contactSection .textBox {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto 15px;
+}
+
+
+
+
+/* Extra Styles */
+
+
+/* Gallery becomes single column */
+.galleryGrid {
+    grid-template-columns: 1fr;
+}
+
+.galleryGrid img {
+    height: 220px;
+}
+
+
+/* Shirt images scale better */
+.shirtCard img {
+    height: 220px;
+}
+
+
+/* Keep background image fixed like desktop */
+body {
+    background-attachment: fixed;
+}
+
+
+/* Scale headings for phones */
+header h1 {
+    font-size: 1.5rem;
+}
+
+.ebffeb {
+    font-size: 1.2rem;
+}
+
+
+/* Scale text content */
+.textBox p {
+    font-size: 0.95rem;
+}
+
+.tagline {
+    font-size: 0.9rem;
+}
+
+
+/* Resize logos */
+.mainLogo {
+    width: 150px;
+    height: 150px;
+}
+
+.footerLogo {
+    max-width: 100px;
+}
+
+
+/* Construction banner spacing */
+.constructionContentContainer {
+    margin: 40px auto 0;
+}
+
+
+/* Tiny screens */
+
+
+@media (max-width: 400px) {
+
+    main {
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    .ebffeb {
+        font-size: 1rem;
+    }
+
+    .textBox p {
+        font-size: 0.85rem;
+    }
+
+    .tagline {
+        font-size: 0.8rem;
+    }
+
+    .contactSection .textBox {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .galleryGrid img {
+        height: 200px;
+    }
+
+}
